@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_take_photo"
+        android:icon="@drawable/ic_action_camera"
+        android:title="@string/action_take_photo"
+        app:showAsAction="always" />
+    <!--<item android:id="@+id/action_share"-->
+        <!--android:icon="@drawable/ic_action_share"-->
+        <!--android:title="@string/action_share"-->
+        <!--app:showAsAction="always"-->
+        <!--android:actionProviderClass="android.widget.ShareActionProvider" />-->
+
+    <item android:id="@+id/action_pick_contact"
+        android:title="@string/action_pick_contact"
+        android:orderInCategory="97"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_open_url"
+        android:title="@string/action_open_url"
+        android:orderInCategory="98"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_send_saved"
+        android:title="@string/action_send_saved"
+        android:orderInCategory="99"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_opengps"
+        android:title="@string/action_opengps"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_more_apps"
+        android:title="@string/more_apps"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_create_shortcut"
+        android:title="@string/create_shortcut"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+</menu>
